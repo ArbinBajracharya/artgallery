@@ -3909,3 +3909,7 @@ footer images
   color: rgb(221, 221, 221);
   font-weight: bold;
 }
+
+.map-wrap {
+  padding: 0px 200px;
+}
