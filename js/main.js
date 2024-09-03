@@ -156,14 +156,6 @@ $(document).ready(function () {
     }
   });
 
-  // Header scroll class
-  $(window).scroll(function () {
-    if ($(this).scrollTop() > 100) {
-      $("#header").addClass("header-scrolled");
-    } else {
-      $("#header").removeClass("header-scrolled");
-    }
-  });
 
   $(".active-about-carusel").owlCarousel({
     items: 1,
@@ -194,16 +186,10 @@ $(document).ready(function () {
     },
   });
 
-
-
   $(document).ready(function () {
     $("#mc_embed_signup").find("form").ajaxChimp();
   });
 });
-
-
-
-
 
 // add active nav link on clicked item
 const activePage = window.location.pathname;
